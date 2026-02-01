@@ -1,0 +1,21 @@
+Datatypes
+===========
+-Types of data we are dealing with
+
+2 types: primitive and non-primitive
+
+primitives:
+      number: 4,4.5, -2.3
+      string: 'sachin', '15', 'true'
+      boolean: true/false
+      undefined: undefined
+      bigint
+      symbol
+
+non-primitive: Object
+
+
+primitives vs non-primitives
+==============================
+primitives are immutable and non-primitives are mutable
+primitives are compared by value and non-primitives are compared by address
