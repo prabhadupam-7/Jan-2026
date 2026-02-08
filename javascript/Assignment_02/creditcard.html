@@ -1,0 +1,11 @@
+<script>
+    let input = '1111222233334444';
+    formatted='';
+    for(i=0;i<input.length;i++){
+      formatted+=input[i];
+      if((i+1)%4===0 && i<input.length-1){
+        formatted+= '-';
+      }
+    }
+    console.log(formatted);
+</script>
